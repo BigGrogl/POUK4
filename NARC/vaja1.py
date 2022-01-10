@@ -23,3 +23,18 @@
 #evri_to_btc = 36021.14
 #euri = cifra*evri_to_btc
 #print("trenutno imas ",euri," v evrih")
+
+#var = "an"
+#print(var * 2 + "as")
+
+#cifra = float(input("vnesi cifro! "))
+#print("Koren = ",cifra**0.5)
+#print("Koren je ",str(cifra**0.5))
+
+feet = 27680
+miles = 7
+metres = 4358
+kilometres = 4358
+
+kilometers_to_miles = round(kilometres / 1.609,2)
+print(str(kilometres) + " km equals "+str(kilometers_to_miles)+" miles")
