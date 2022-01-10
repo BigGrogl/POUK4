@@ -16,5 +16,10 @@
 #st_ovac += 1
 #print(st_ovac)
 
-cifra = int(input("Vnesi stevilo: "))
-print("Kvadrat stevvila ",cifra, " = ",cifra**2)
+#cifra = int(input("Vnesi stevilo: "))
+#print("Kvadrat stevvila ",cifra, " = ",cifra**2)
+
+#cifra = float(input("Vnesi stevilo BitKonjev "))
+#evri_to_btc = 36021.14
+#euri = cifra*evri_to_btc
+#print("trenutno imas ",euri," v evrih")
