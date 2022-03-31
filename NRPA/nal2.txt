@@ -1,0 +1,21 @@
+    Rešite spodnje naloge v poljubnem programskem/skriptnem jeziku. Obkrožite izbran programski/skriptni jezik: C, C++, C#, Java, Python, PHP
+
+ 
+
+ 
+
+4.1   Napišite kodo v izbranem jeziku, s pomočjo katere uporabnik vnese 100 besed preko standardnega vhoda in jih shrani v polje/tabelo.
+
+(2 točki)
+
+4.2   Napišite podprogram vrniZnak, ki prejme dva vhodna podatka, in sicer polje/tabelo, napolnjeno v nalogi 4.1, in število N. Podprogram naj izpiše zadnji znak besede/niza, ki se nahaja na N-tem mestu v vhodnem polju/tabeli.                  
+
+(2 točki)
+
+4.3   Napišite podprogram steviloSamoglasnikov, ki prejme kot vhodno spremenljivko poljuben niz, ki vsebuje samo male črke angleške abecede. Podprogram naj vrne število samoglasnikov v nizu.    
+
+(3 točke)
+
+4.4   Napišite metodo najvecSamoglasnikov, ki prejme kot vhodno spremenljivko polje/tabelo, napolnjeno v nalogi 4.1, metoda pa izpiše tisti niz iz polja, ki vsebuje največ samoglasnikov. Uporabite podprogram iz naloge 4.3 – predpostavite, da podprogram obstaja oz. je pravilno napisan. Predpostavite tudi, da je tak niz v polju/tabeli samo en.        
+
+(3 točke)
