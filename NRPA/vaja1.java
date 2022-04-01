@@ -18,7 +18,9 @@ public class vaja1{
         X = sc.nextInt();
         System.out.printf("Vnesi povrsino: ");
         povr = sc.nextDouble();
+        System.out.printf("%S s povrsino %.2f", naselje[X], povrsina[X]);
         povrsina[X]=povr;
+        System.out.printf("Ste spremenili na %.2f", povr);
         System.out.println(X+" "+povr);
         
         //break
@@ -45,7 +47,7 @@ public class vaja1{
     //nal 4.2
     public static String kratica(int pStevilka, String imeNaselja){
         String stevilka = Integer.toString(pStevilka);
-        String kratica = imeNaselja.substring(1,3);
+        String kratica = imeNaselja.substring(0,3);
         String krat = stevilka.concat(kratica);
         return krat;
     }

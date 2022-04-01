@@ -3,12 +3,13 @@ public class vaja2 {
     public static void main(String[] args) {
         
         //deklaracija scanner, spremenljivk, tabel
+        int steviloBesed = 5;
         Scanner sc = new Scanner(System.in);
-        String[] besede = new String[100];
+        String[] besede = new String[steviloBesed];
 
         //nal 4.1
-        for(int i = 0; i < 5; i++){
-            System.out.printf("%nVnesi %d besedo: ", i+1);
+        for(int i = 0; i < besede.length; i++){
+            System.out.printf("%nVnesi %d. besedo: ", i+1);
             besede[i] = sc.nextLine();
         }
 
@@ -52,6 +53,7 @@ public class vaja2 {
         return count;
     }
     //nal 4.4
+    
     public static void najvecSamoglasnikov(String[] besede) {
         int max = 0;
         int index = 0;
@@ -63,4 +65,5 @@ public class vaja2 {
         }
         System.out.printf("Najvec samoglasnikov ima beseda %S (%d)", besede[index],max);
     }
+
 }
