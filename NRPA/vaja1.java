@@ -24,7 +24,7 @@ public class vaja1{
         System.out.println(X+" "+povr);
         
         //break
-        System.out.println();
+        System.out.println(); 
 
         //nal 4.2
         System.out.printf("Vnesi postno stevilko in ime naselja: ");
